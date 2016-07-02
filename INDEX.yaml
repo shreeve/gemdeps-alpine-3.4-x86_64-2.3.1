@@ -1,0 +1,13 @@
+gems:
+  "*":
+    command: apk --update add ${packages}
+  bcrypt:
+  bond:
+  io-console:
+  json:
+  kgio:
+  mysql2: "* mariadb-client mariadb-libs +mariadb-dev"
+  nokogiri: "* libxml2 libxslt +libxml2-dev +libxslt-dev"
+  psych:
+  raindrops: "* +linux-headers"
+  unf_ext:
